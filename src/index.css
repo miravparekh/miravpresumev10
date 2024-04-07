@@ -1,80 +1,133 @@
-.banner{
+.banner {
     width: 80%;
     height: 70%;
     padding: 0px 150px;
-/*    position: absolute;*/
     top: 15%;
     left: 150px;
     color: #fff;
     display: flex;
-/*    justify-content: center;*/
-}
-
-.app-text{
+  }
+  
+  .app-text {
     position: absolute;
     float: left;
-
-}
-
-.app-text h2{
+  }
+  
+  .app-text h2 {
     margin-top: 90px;
     font-size: 20px;
     color: #000;
     font-weight: 200;
-
-    
-}
-
-.app-text h1{
+  }
+  
+  .app-text h1 {
     font-size: 95px;
     position: relative;
     color: #000;
     margin-top: 30px;
     font-weight: 700;
     line-height: 0.7;
-
-}
-
-.app-text p1{
+  }
+  
+  .app-text p1 {
     font-size: 57px;
     position: relative;
     color: #000;
     margin-top: 35px;
     font-weight: 500;
     line-height: 1.8;
-}
-
-.app-text p{
+  }
+  
+  .app-text p {
     font-size: 20px;
     color: #000;
     position: absolute;
     text-align: justify;
-    
-}
-
-.app-picture{
+  }
+  
+  .app-picture {
     position: absolute;
     right: -8%;
     top: 27%;
-}
-
-.btn-group{
+  }
+  
+  .btn-group {
     position: absolute;
     display: flex;
     width: 100%;
     top: 130%;
-
-}
-
-.btn-group .signup-btn{
+  }
+  
+  .btn-group .signup-btn {
     cursor: pointer;
     display: block;
     color: #000;
-    
     text-align: center;
     font-size: 20px;
     font-weight: 700;
     border-radius: 32px;
     background-color: orange;
     padding: 10px 40px;
-}
+  }
+  
+  .social-icons {
+    position: fixed;
+    left: 46px;
+    bottom: 16%;
+  }
+  
+  .social-icons ul li button {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 29px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .social-icons ul li button:hover {
+    color: #00c8f0;
+  }
+  
+  .fa-github::after {
+    content: '';
+    position: fixed;
+    width: 3px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    left: 65px;
+    bottom: 0px;
+  }
+  
+  .email-link li button {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    margin: 20px;
+    padding: 10px;
+    position: fixed;
+    right: 24px;
+    bottom: 13%;
+    text-decoration: none;
+    writing-mode: vertical-rl;
+  }
+  
+  .email-link li button:hover {
+    color: #00c8f0;
+  }
+  
+  .email-link::after {
+    content: '';
+    position: fixed;
+    width: 3px;
+    height: 122px;
+    border-radius: 10px;
+    background-color: #0f1414;
+    right: 60px;
+    bottom: 0px;
+  }
