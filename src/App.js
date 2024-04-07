@@ -1,4 +1,9 @@
 function App() {
-  return <div>Mirav</div>
+  return (
+    <div>
+      <h1>Label</h1>
+      <Content />
+    </div>
+  );
 }
 export default App;
