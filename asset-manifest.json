@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/miravpresumev10/static/css/main.c1e3e5bf.css",
+    "main.js": "/miravpresumev10/static/js/main.53569b51.js",
+    "static/media/frontpage1.jpg": "/miravpresumev10/static/media/frontpage1.bfdb70ee18b897031930.jpg",
+    "index.html": "/miravpresumev10/index.html",
+    "main.c1e3e5bf.css.map": "/miravpresumev10/static/css/main.c1e3e5bf.css.map",
+    "main.53569b51.js.map": "/miravpresumev10/static/js/main.53569b51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1e3e5bf.css",
+    "static/js/main.53569b51.js"
+  ]
+}
