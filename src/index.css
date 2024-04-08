@@ -2,7 +2,7 @@
     width: 80%;
     height: 70%;
     padding: 0px 150px;
-    top: 15%;
+    top: 10%;
     left: 150px;
     color: #fff;
     display: flex;
@@ -14,7 +14,7 @@
   }
   
   .app-text h2 {
-    margin-top: 90px;
+    margin-top: 50px;
     font-size: 20px;
     color: #000;
     font-weight: 200;
@@ -33,7 +33,7 @@
     font-size: 57px;
     position: relative;
     color: #000;
-    margin-top: 35px;
+    margin-top: 5px;
     font-weight: 500;
     line-height: 1.8;
   }
@@ -47,15 +47,15 @@
   
   .app-picture {
     position: absolute;
-    right: -8%;
-    top: 27%;
+    right: -2.5%;
+    top: 23%;
   }
   
   .btn-group {
     position: absolute;
     display: flex;
     width: 100%;
-    top: 130%;
+    top: 135%;
   }
   
   .btn-group .signup-btn {
@@ -72,8 +72,8 @@
   
   .social-icons {
     position: fixed;
-    left: 46px;
-    bottom: 16%;
+    left: 4px;
+    bottom: 12%;
   }
   
   .social-icons ul li button {

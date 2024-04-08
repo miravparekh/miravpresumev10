@@ -3,8 +3,7 @@ import './index.css';
 import frontpageImage from './images/frontpage1.jpg';
 function App() {
   const handleResumeClick = () => {
-    // Replace 'path/to/resume.pdf' with the actual path or URL of your resume PDF file
-    window.location.href = 'path/to/resume.pdf';
+    window.location.href = '/Users/miravparekh/Desktop/Miravpresumev9.pdf';
   };
 
   return (
@@ -12,9 +11,9 @@ function App() {
       <div className="app-text">
         <h2>Hi, I am</h2>
         <h1>Mirav Parekh.</h1>
-        <p1>Developer|Data Enthusiast</p1>
+        <p1>Developer | Data Enthusiast</p1>
         <p>
-          I'm a Data Analyst based in Boston, US specializing in end-to-end ML
+          I am a Data Enthusiast specializing in end-to-end ML
           pipelines, applications, and everything in between.
         </p>
         <div className="btn-group">
@@ -27,7 +26,7 @@ function App() {
         <img
           src={frontpageImage}
           alt="Mirav Parekh"
-          style={{ width: '710px', height: '635px' }}
+          style={{ width: '650px', height: '635px' }}
         />
       </div>
       <div className="social-icons">
@@ -38,7 +37,7 @@ function App() {
             </button>
           </li>
           <li>
-            <button onClick={() => window.open('https://www.linkedin.com/in/yourprofile', '_blank')}>
+            <button onClick={() => window.open('https://www.linkedin.com/in/mirav-p/', '_blank')}>
               <i className="fa fa-linkedin"></i>
             </button>
           </li>
